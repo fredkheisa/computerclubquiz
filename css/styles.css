@@ -2,6 +2,7 @@ h1{
     color: blue;
 }
 body{
-    background-image: url(../images/background1.jpg);
-    
+    background-image: url(../imaes/background1.jpg);
+    background-color: crimson;
+
 }
