@@ -3,9 +3,13 @@ h1{
 }
 body{
     background-image: url(../images/background1.jpg);
-    background-color: crimson;
+    color:black;
 
 }
 container2{
     float: right;
+}
+:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
 }
