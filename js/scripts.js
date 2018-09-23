@@ -6,6 +6,11 @@ function check () {
     var question3 = document.quiz.question3.value;
     var question4 = document.quiz.question4.value;
     var question5 = document.quiz.question5.value;
+    var marks= 0%;
+
+    if (question1="correct"){
+        correct=marks  +20%;
+    };
 
 
 
