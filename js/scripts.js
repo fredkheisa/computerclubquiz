@@ -1,30 +1,18 @@
+function check(){
+    var question1 = document.Quiz.question1.value;
+    var question2 = document.Quiz.question2.value;
+    var right =0;
 
 
-function check () {
-    var question1 = document.quiz.question1.value;
-    var question2 = document.quiz.question2.value;
-    var question3 = document.quiz.question3.value;
-    var question4 = document.quiz.question4.value;
-    var question5 = document.quiz.question5.value;
-    var marks= 0;
-
-    if (question1="correct"){
-        correct=marks  +20;
+    if(question1="correct"){
+        right=right  +20; 
     };
     if (question2="correct"){
-        correct= marks +20;
+        right= right+20;
     };
-    if (question3="correct"){
-        correct= marks +20;
-    };
-    if (question4="correct"){
-        correct= correct +20;
-    };
-    if (question5="correct"){
-        correct= correct +20;
-    };
+ 
     document.getElementById("fifth-p").style.visibility="visible";
-    document.getElementById("correctNumber").innerHTML="you've scored" + correct+ "%" ;
+    document.getElementById("correctNumber").innerHTML="you've scored" + right+ "%";
 };
 
 

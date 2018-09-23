@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE >
 <html>
     <head>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -8,126 +8,26 @@
     </head>
     <title>COMPUTER CLUB QUIZ</title>
 <body>
+    <h1>COMPUTER CLUB QUIZ</h1>
+            <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                <p><b> 1.  What is java sript?</b></p><br>
+                <input type="radio" name="question1" id="mc" value="correct">A programming language<br>
+                <input type="radio" name="question1" id="mc" value="wrong">A hotel for coffee<br>
+                <input type="radio" name="question1" id="mc" value="wrong">A technology used in programming<br>
 
-    <div class="container">
-            <h4>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>CONTACTS</li>
-                    <LI>DIRECTION</LI>
 
-                </h4>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron">
-                <h1> COMPUTER CLUB QUIZ</h1>
-                    <div class="well">
-                        <h2>WELCOME TO THE COMPUTER CLUB QUIZ WELL BE TESTING YOUR SKILLS ON JAV SCRIPT.</h2>
-                    </div>
-                </div>
-                <form class="jumbotron" id="quiz" action="index.html" method="post" name="quiz">
-                        <div class="radio">
-                            <p><b>1.   What is java sript?</b></p>
-                                <label>
-                                <input type="radio" name="question1" value="correct">
-                                A programing language.
-                                </label>
-                        <div class="radio">
-                            <label>
-                                <input type="radio" name="question1" value="wrong" >
-                                A technology in programming.
-                            </label>
-                        </div>
-                </form>
-            </div>
-        </div>
+                <p><b> 2.   Why would someone want to use JavaScript on a Web page?</b></p><br>
+                <input type="radio" name="question2" id="mc" value="correct">To react to events that take place in the web page.<br>
+                <input type="radio" name="question2" id="mc" value="wrong">To pass data to a java applet program.<br>
+                <input type="radio" name="question2" id="mc" value="wrong">To look beautiful.<br>
 
-        <div class="row">
-                <div class="col-md-6">
-                        <form class="jumbotron" id="quiz" action="index.html" method="post" name="quiz">
-                            <div class="radio">
-                                <p><b> 2. Why would someone want to use JavaScript on a Web page?</b></p>
-                                    <label>
-                                    <input type="radio" name="question2" value="correct">
-                                    To react to events that occur with Web page use
-                                    </label>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="question2" value="wrong" >
-                                    To pass data to a Java applet program
-                                </label>
-                            </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                        <form class="jumbotron" id="quiz" action="index.html" method="post" name="quiz">
-                            <div class="radio">
-                                <p><b> 3 . Why would someone use a semi-colon when writing JavaScript?</b> </p>
-                                    <label>
-                                    <input type="radio" name="question3" value="wrong" >
-                                    To put more than one statement on the same line
-                                    </label>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="question3" value="correct" >
-                                    Because a return statement requires them
-                                </label>
-                            </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <form class="jumbotron" id="quiz" action="index.html" method="post" name="quiz">
-                            <div class="radio">
-                                <p><b> 4. Why would someone use more than one pair of  tags in a Web page?</b></p>
-                                    <label>
-                                    <input type="radio" name="question4" value="wrong" >
-                                    There is no reason to use more than one pair.
-                                    </label>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="question4" value="correct" >
-                                    To span a switch statement across multiple functions
-                                </label>
-                            </div>
-                    </form>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                        <form class="jumbotron" id="quiz" action="index.html" method="post" name="quiz">
-                            <div class="radio">
-                                <p><b>5.  8. After a JavaScript function runs the following two lines of code, what value does the variable 
-                                    theDay contain?
-                                 
-                                 var d=new Date();
-                                 theDay = d.getDay();</b></p>
-                                    <label>
-                                    <input type="radio" name=question5" value="wrong" >
-                                    02.05.2018
-                                    </label>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="question5" value="correct" >
-                                    6 .
-                                </label>
-                            </div>
-                        <input  value="done" id="button" onclick="check();">
-                    </form>
-                    <div id="fifth-p">
-                        <p id="correctNumber">Your score is:</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
-    <html>
+                <input type="button" name="results" value="DONE!" id="button" onclick="check();">
+            </form>
+    <div id="fifth-p">
+        <p id="correctNumber"> Your Score Is :</p>
+    </div>
+</body>
+<html>
 
 
 
