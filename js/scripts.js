@@ -6,7 +6,7 @@ function check () {
     var question3 = document.quiz.question3.value;
     var question4 = document.quiz.question4.value;
     var question5 = document.quiz.question5.value;
-    var marks= 0;
+    var marks= 0%;
 
     if (question1="correct"){
         correct=marks  +20;
@@ -18,11 +18,14 @@ function check () {
         correct= marks +20;
     };
     if (question4="correct"){
-        correct= marks +20;
+        correct= correct +20;
     };
     if (question5="correct"){
-        correct= marks +20;
-
+        correct= correct +20;
+    };
+    document.getElementById("fifth-p").style.visibility="visible";
+    document.getElementById("correctNumber").innerHTML="you've scored" + correct ;
+};
 
 
 
