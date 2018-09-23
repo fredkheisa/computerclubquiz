@@ -11,6 +11,12 @@ function check () {
     if (question1="correct"){
         correct=marks  +20%;
     };
+    if (question2="correct"){
+        correct= marks +20%;
+    };
+    if (question3="correct"){
+        correct= marks +20%;
+    };
 
 
 
