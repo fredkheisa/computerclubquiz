@@ -2,16 +2,25 @@ h1{
     color: blue;
 }
 body{
+    background-image: url(..images/18lptfrh56eq7jpg.webp)
     color:black;
 
 }
 container2{
     float: right;
 }
-form:hover{
+well:hover{
     background-color: rgb(255, 255, 255);
     color:black;
 }
 h4,{
     float: right;
 }
+p {
+    cursor: pointer;
+    color: #0088cc;
+    }
+    
+    p:hover {
+    text-decoration: underline;
+    }
