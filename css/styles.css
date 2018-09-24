@@ -2,7 +2,7 @@ h1{
     color: blue;
 }
 body{
-    background-image: url(images/background1.jpg);
+    background-image: url(../images/BACK2.jpg);
     color:black;
 
 }
@@ -24,3 +24,6 @@ p {
     p:hover {
     text-decoration: underline;
     }
+done{
+    color: white;
+}
