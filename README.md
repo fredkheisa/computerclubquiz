@@ -1,6 +1,6 @@
 # {COMPUTER CLUB TEST}
 #### {THIS WEB SITE IS FOR A TEST FOR THE CLUB MEMBERS}, {08.09.2014}
-#### By **{FRED KHEISA}**
+#### By **FRED KHEISA**
 ## THIS WEBSITE IS SUPPOSED TO TEST SKILLS AND UNDERSTANDING ON  JAVA SCRIPT }
 ## made for 
 * @media screen and (min-width: 480px) and above meaning that the devices as small as phones and tablets to computers can access it
