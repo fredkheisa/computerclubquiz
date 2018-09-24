@@ -9,11 +9,12 @@
     <title>COMPUTER CLUB QUIZ</title>
 <body>
         <form action="/action_page.php" method="get">
+        
             First name : <input type="text" name="fname"><br>
             Last name  : <input type="text" name="lname"><br>
-            Password     :<input type="password"><br>
-            <input type="submit" value="Submit">
-          </form>
+            Password     :<input type="password" class="form-control"><br>
+            <input type="submit" value="Submit" class="btn btn-success">
+          </form class="col-sm-6">
     <div class="container">
         <div class="jumbotron">
                 <h1>COMPUTER CLUB QUIZ</h1>
@@ -61,7 +62,7 @@
                         <input type="radio" name="question2" id="mc" value="wrong">Semicolons after the brackets.  .<br>
         </div>
     </div>
-                <input type="button" name="results" value="DONE!" id="button" onclick="check();">
+                <input type="button" name="results" value="DONE!" id="button" onclick="check();" class="btn btn-primary">>
             </form>
     <div id="fifth-p" class="done">
         <p  id="correctNumber"> Your Score Is :</p>
