@@ -13,6 +13,14 @@
 *jQuery
 
 ##Behavior Driven Development was also included
+| Behavior      | Example       | output|
+| ------------- |:-------------:| -----:|
+| progressbar   |  25%-50%      |  width     |
+| changes when  |               |changes     |          
+| you click     |               |            |          
+|   next.       | You scored:20%| You scored:20% |
+|  returns      |           
+|  your score   |    |
 
 
 ## Support and contact details 
