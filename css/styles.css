@@ -1,15 +1,14 @@
 h1{
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 body{
-    background-image: url(../images/BACK2.jpg);
+    background-image: url(../images/2.jpg);
     color:black;
     
 
 }
 container{
     float: right;
-    display: none;
 }
 well:hover{
     background-color: rgb(255, 255, 255);
@@ -20,12 +19,9 @@ h4,{
 }
 p {
     cursor: pointer;
-    color: #0088cc;
+    color: #000000;
     }
-    
-    p:hover {
-    text-decoration: underline;
-    }
-done{
-    color: white;
+
+.fifth-p{
+    display: none;
 }

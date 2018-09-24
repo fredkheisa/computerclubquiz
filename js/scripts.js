@@ -30,7 +30,8 @@ function check(){
 
 $(document).ready(function() {
     $("Submit").click(function() {
-      $("container").show();
+      $("container").hide();
+      $("fifth-p").show();
     });
   })
 
