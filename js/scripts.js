@@ -28,6 +28,10 @@ function check(){
     document.getElementById("correctNumber").innerHTML="you've scored" + right+ "%";
 };
 
-
+$(document).ready(function() {
+    $("Submit").click(function() {
+      $("container").show();
+    });
+  })
 
 

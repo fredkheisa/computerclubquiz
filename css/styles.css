@@ -4,10 +4,12 @@ h1{
 body{
     background-image: url(../images/BACK2.jpg);
     color:black;
+    
 
 }
-container2{
+container{
     float: right;
+    display: none;
 }
 well:hover{
     background-color: rgb(255, 255, 255);
