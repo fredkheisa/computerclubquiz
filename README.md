@@ -4,7 +4,7 @@
 ## THIS WEBSITE IS SUPPOSED TO TEST SKILLS AND UNDERSTANDING ON  JAVA SCRIPT }
 ## made for 
 * @media screen and (min-width: 480px) and above meaning that the devices as small as phones and tablets to computers can access it
-## Known Bugs {there are potential bugs but that can be resoved and the app being improved }
+##Known Bugs {there are potential bugs but that can be resoved and the app being improved }
 ## Technologies Used 
 *CSS  
 *HTML
